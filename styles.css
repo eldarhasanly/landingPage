@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: "Roboto";
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+nav {
+    color:#e5e7eb;
+    font-weight: 18px; 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+a { 
+    text-decoration: none;
+}
+
+nav > a:hover, nav > a:visited {
+    color: #e5e7eb;
+}
+
+.logo {
+    font-weight: 24px;
+    color: #f9faf8;
+}
+
+.hero {
+    background-color: #1f2937;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    max-width: 300px;
+}
+
+.context {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 400px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #f9faf8;
+    border: none;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 400px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.box {
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 5px;
+}
+
+.image-text {
+    width: 130px;
+    margin-bottom: 60px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 750px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-left: 880px;
+}
+
+.action-box {
+    background-color: #3882f6;
+    height: 100px;
+    width: 600px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-text-1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.box-text-2 {
+    color: #e5e7eb;
+}
+
+.sign-up-2 {
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: #e5e7eb;
+    font-size: 24px;
+}
